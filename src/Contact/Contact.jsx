@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Contact.css";
 
 const Contact = () => {
@@ -19,7 +20,10 @@ const Contact = () => {
         ></iframe>
 				</div>
 				<h2 className="contact__info">Для записи или дополнительной информации напишите нам в Telegram</h2>
+        <Link to="https://t.me/IlyaSkaAl">
 				<button className="contact__button">Написать в Telegram</button>
+        </Link>
+        
       </section>
     </>
   );
