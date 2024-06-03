@@ -1,0 +1,29 @@
+.title {
+	background-image: url(.././Img/bgc.jpg);
+	height: 1038px;
+}
+
+.title__text {
+	color: white;
+	font-size: 72px;
+	margin: 200px auto 0 auto;
+	width: 670px;
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	.title {
+			background-image: url(.././Img/bgc320.png); 
+			height: auto;
+			background-repeat: no-repeat; /* Добавлено это свойство */
+			background-size: cover; /* Добавлено это свойство */
+			/* width: 100%; */
+	}
+	.title__text {
+    color: white;
+    font-size: 30px;
+    margin: 142px auto 0px auto;
+    text-align: center;
+		width: 95%;
+}
+}

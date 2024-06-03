@@ -1,0 +1,27 @@
+.promo__svg {
+	text-align: center;
+	margin: 50px auto 0 auto;
+}
+
+.promo__text {
+	width: 856px;
+	margin: 15px auto;
+	text-align: center;
+	color: white;
+	font-size: 27px;
+}
+
+@media (max-width: 600px) {
+.promo__svg-img {
+	width: 60px;
+	height: 44px;
+}
+
+.promo__text {
+	width: 95%;
+	margin: 15px auto;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+}
